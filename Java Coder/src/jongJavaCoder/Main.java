@@ -2,6 +2,10 @@ package jongJavaCoder;
 
 public class Main {
 	public static void main(String[] args) {
-		System.out.println("hello world");
+		Encapsulation e = new Encapsulation();
+		e.name = "Joevanka";
+		e.address = "Tangerang";
+		
+		e.info();
 	}
 }
